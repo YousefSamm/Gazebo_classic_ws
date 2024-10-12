@@ -1,0 +1,51 @@
+[0.092s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_box_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_box_bot_description
+[0.181s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.220s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.431s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Found urdf: 2.5.2 (/opt/ros/galactic/share/urdf/cmake)
+[0.776s] -- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)
+[0.776s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.005s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.010s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.011s] -- Added test 'lint_cmake' to check CMake code style
+[1.074s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.074s] -- Added test 'xmllint' to check XML markup files
+[1.075s] -- Configuring done
+[1.081s] -- Generating done
+[1.083s] -- Build files have been written to: /home/user/ros2_ws/build/my_box_bot_description
+[1.101s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_box_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_box_bot_description
+[1.101s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_description -- -j8 -l8
+[1.277s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_description -- -j8 -l8
+[1.420s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_description
+[1.431s] -- Install configuration: ""
+[1.473s] -- Execute custom install script
+[1.477s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_geometric.urdf
+[1.491s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_geometric_meshes.urdf
+[1.528s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_meshes_collisions_inertias.urdf
+[1.581s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/rviz/urdf_vis.rviz
+[1.610s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_geometric.launch.py
+[1.626s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_meshes.launch.py
+[1.712s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_meshes_collisions_inertias.launch.py
+[1.731s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/cute_cube.blend
+[1.781s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/cute_cube.dae
+[1.803s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/lambert3_baseColor.png
+[1.825s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/realsense.dae
+[1.886s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/rplidar.dae
+[1.903s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/rplidartexture.png
+[1.983s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/textures/lambert3_baseColor.png
+[2.009s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/package_run_dependencies/my_box_bot_description
+[2.076s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/parent_prefix_path/my_box_bot_description
+[2.117s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.sh
+[2.194s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.dsv
+[2.211s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.sh
+[2.283s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.dsv
+[2.307s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.bash
+[2.329s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.sh
+[2.392s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.zsh
+[2.411s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.dsv
+[2.476s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/package.dsv
+[2.528s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/packages/my_box_bot_description
+[2.585s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig.cmake
+[2.609s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig-version.cmake
+[2.682s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/package.xml
+[2.714s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_description

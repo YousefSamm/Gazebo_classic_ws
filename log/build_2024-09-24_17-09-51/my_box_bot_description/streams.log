@@ -1,0 +1,68 @@
+[0.036s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_box_bot_description
+[0.601s] -- The C compiler identification is GNU 9.4.0
+[0.889s] -- The CXX compiler identification is GNU 9.4.0
+[0.907s] -- Check for working C compiler: /usr/bin/cc
+[1.062s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.063s] -- Detecting C compiler ABI info
+[1.206s] -- Detecting C compiler ABI info - done
+[1.225s] -- Detecting C compile features
+[1.228s] -- Detecting C compile features - done
+[1.232s] -- Check for working CXX compiler: /usr/bin/c++
+[1.491s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.492s] -- Detecting CXX compiler ABI info
+[1.642s] -- Detecting CXX compiler ABI info - done
+[1.661s] -- Detecting CXX compile features
+[1.663s] -- Detecting CXX compile features - done
+[1.670s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.742s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.742s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.945s] -- Found urdf: 2.5.2 (/opt/ros/galactic/share/urdf/cmake)
+[2.130s] -- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)
+[2.136s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.321s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.332s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.333s] -- Added test 'lint_cmake' to check CMake code style
+[2.335s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.338s] -- Added test 'xmllint' to check XML markup files
+[2.342s] -- Configuring done
+[2.347s] -- Generating done
+[2.348s] -- Build files have been written to: /home/user/ros2_ws/build/my_box_bot_description
+[2.361s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_box_bot_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_box_bot_description
+[2.363s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_description -- -j8 -l8
+[2.449s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_description -- -j8 -l8
+[2.537s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_description
+[2.562s] -- Install configuration: ""
+[2.563s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf
+[2.563s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_geometric.urdf
+[2.565s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_geometric_meshe.urdf
+[2.567s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/rviz
+[2.567s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/rviz/urdf_vis.rviz
+[2.567s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch
+[2.570s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_meshes.launch.py
+[2.570s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_geometric.launch.py
+[2.570s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes
+[2.570s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/cute_cube.dae
+[2.571s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors
+[2.571s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/realsense.dae
+[2.571s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/rplidar.dae
+[2.579s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/rplidartexture.png
+[2.579s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/lambert3_baseColor.png
+[2.579s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/cute_cube.blend
+[2.588s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/textures
+[2.588s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/textures/lambert3_baseColor.png
+[2.589s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/package_run_dependencies/my_box_bot_description
+[2.589s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/parent_prefix_path/my_box_bot_description
+[2.590s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.sh
+[2.592s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.dsv
+[2.592s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.sh
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.dsv
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.bash
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.sh
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.zsh
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.dsv
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/package.dsv
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/packages/my_box_bot_description
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig.cmake
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig-version.cmake
+[2.593s] -- Installing: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/package.xml
+[2.632s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_description

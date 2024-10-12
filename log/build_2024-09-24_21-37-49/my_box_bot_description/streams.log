@@ -1,0 +1,37 @@
+[0.021s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_description': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_description -- -j8 -l8
+[0.084s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_description' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_description -- -j8 -l8
+[0.163s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_description': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_description
+[0.182s] -- Install configuration: ""
+[0.182s] -- Execute custom install script
+[0.182s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_geometric.urdf
+[0.182s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_geometric_meshes.urdf
+[0.182s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_meshes_collisions_inertias.urdf
+[0.182s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/urdf/box_bot_physical_properties.urdf
+[0.182s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/rviz/urdf_vis.rviz
+[0.212s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_geometric.launch.py
+[0.213s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_meshes.launch.py
+[0.213s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_meshes_collisions_inertias.launch.py
+[0.214s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/launch/urdf_visualize_physical.launch.py
+[0.214s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/cute_cube.blend
+[0.214s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/cute_cube.dae
+[0.214s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/lambert3_baseColor.png
+[0.214s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/realsense.dae
+[0.215s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/rplidar.dae
+[0.215s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/sensors/rplidartexture.png
+[0.215s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/meshes/textures/lambert3_baseColor.png
+[0.215s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/package_run_dependencies/my_box_bot_description
+[0.215s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/parent_prefix_path/my_box_bot_description
+[0.216s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/ament_prefix_path.dsv
+[0.217s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.sh
+[0.217s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/environment/path.dsv
+[0.218s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.bash
+[0.218s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.sh
+[0.219s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.zsh
+[0.219s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/local_setup.dsv
+[0.219s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/package.dsv
+[0.232s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/ament_index/resource_index/packages/my_box_bot_description
+[0.233s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig.cmake
+[0.235s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/cmake/my_box_bot_descriptionConfig-version.cmake
+[0.235s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/package.xml
+[0.252s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_description' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_description

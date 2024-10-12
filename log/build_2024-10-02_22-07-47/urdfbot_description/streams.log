@@ -1,0 +1,33 @@
+[0.025s] Invoking command in '/home/user/ros2_ws/build/urdfbot_description': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/urdfbot_description -- -j8 -l8
+[3.100s] Invoked command in '/home/user/ros2_ws/build/urdfbot_description' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/urdfbot_description -- -j8 -l8
+[3.155s] Invoking command in '/home/user/ros2_ws/build/urdfbot_description': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/urdfbot_description
+[3.165s] -- Install configuration: ""
+[3.165s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/urdf
+[3.165s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/urdf/urdfbot_simple.urdf
+[3.166s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/rviz
+[3.166s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/rviz/urdf_vis.rviz
+[3.166s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/launch
+[3.166s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/launch/urdf_visualize.launch.py
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_limb.dae
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_head.dae
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_claw.dae
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_texture.png
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_foot.dae
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_body.dae
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/ament_index/resource_index/package_run_dependencies/urdfbot_description
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/ament_index/resource_index/parent_prefix_path/urdfbot_description
+[3.167s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.sh
+[3.168s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.dsv
+[3.170s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/environment/path.sh
+[3.170s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/environment/path.dsv
+[3.170s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/local_setup.bash
+[3.170s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/local_setup.sh
+[3.170s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/local_setup.zsh
+[3.171s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/local_setup.dsv
+[3.172s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/package.dsv
+[3.172s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/ament_index/resource_index/packages/urdfbot_description
+[3.172s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig.cmake
+[3.172s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig-version.cmake
+[3.172s] -- Up-to-date: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/package.xml
+[3.173s] Invoked command in '/home/user/ros2_ws/build/urdfbot_description' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/urdfbot_description

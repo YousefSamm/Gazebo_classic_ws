@@ -1,0 +1,4 @@
+Invoking command in '/home/user/ros2_ws/build/urdfbot_description': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/urdfbot_description -- -j8 -l8
+Invoked command in '/home/user/ros2_ws/build/urdfbot_description' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/urdfbot_description -- -j8 -l8
+Invoking command in '/home/user/ros2_ws/build/urdfbot_description': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/urdfbot_description
+Invoked command in '/home/user/ros2_ws/build/urdfbot_description' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/urdfbot_description

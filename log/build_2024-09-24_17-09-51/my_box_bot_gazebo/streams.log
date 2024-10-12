@@ -1,0 +1,147 @@
+[0.017s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/simulations/ros2_sims_ws/install/uniclicle_robot_pkg:/home/simulations/ros2_sims_ws/install/turtle_tf_3d_ros2:/opt/ros/galactic:/opt/ros/galactic:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_box_bot_gazebo
+[0.117s] -- The C compiler identification is GNU 9.4.0
+[0.195s] -- The CXX compiler identification is GNU 9.4.0
+[0.201s] -- Check for working C compiler: /usr/bin/cc
+[0.319s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.321s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.460s] -- Detecting C compile features
+[0.461s] -- Detecting C compile features - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++
+[0.591s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.601s] -- Detecting CXX compiler ABI info
+[0.753s] -- Detecting CXX compiler ABI info - done
+[0.770s] -- Detecting CXX compile features
+[0.770s] -- Detecting CXX compile features - done
+[0.776s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.822s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.823s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.984s] -- Found rclpy: 1.9.0 (/opt/ros/galactic/share/rclpy/cmake)
+[0.989s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[1.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.203s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.436s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.513s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.911s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.923s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.971s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.976s] -- Looking for pthread.h
+[2.123s] -- Looking for pthread.h - found
+[2.124s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.237s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.238s] -- Looking for pthread_create in pthreads
+[2.334s] -- Looking for pthread_create in pthreads - not found
+[2.334s] -- Looking for pthread_create in pthread
+[2.456s] -- Looking for pthread_create in pthread - found
+[2.458s] -- Found Threads: TRUE  
+[2.786s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.789s] -- Checking for module 'bullet>=2.82'
+[2.814s] --   Found bullet, version 2.88
+[3.064s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[3.169s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[3.330s] -- Found assimp: /usr/include (found version "5.0.0") 
+[3.424s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.507s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.591s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.609s] -- Looking for ignition-math6 -- found version 6.9.2
+[3.632s] -- Searching for dependencies of ignition-math6
+[3.643s] -- Looking for OGRE...
+[3.644s] -- OGRE_PREFIX_WATCH changed.
+[3.651s] -- Checking for module 'OGRE'
+[3.681s] --   Found OGRE, version 1.9.0
+[3.768s] -- Found Ogre Ghadamon (1.9.0)
+[3.781s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.796s] -- Looking for OGRE_Paging...
+[3.810s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.810s] -- Looking for OGRE_Terrain...
+[3.827s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.827s] -- Looking for OGRE_Property...
+[3.838s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.839s] -- Looking for OGRE_RTShaderSystem...
+[3.847s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.847s] -- Looking for OGRE_Volume...
+[3.862s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.863s] -- Looking for OGRE_Overlay...
+[3.875s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.100s] -- Looking for ignition-math6 -- found version 6.9.2
+[4.106s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.107s] -- Searching for dependencies of ignition-transport8
+[4.159s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[4.201s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.207s] -- Checking for module 'libzmq >= 4'
+[4.246s] --   Found libzmq , version 4.3.2
+[4.333s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.358s] -- Checking for module 'uuid'
+[4.403s] --   Found uuid, version 2.34.0
+[4.509s] -- Found UUID: TRUE  
+[4.518s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.518s] -- Searching for dependencies of ignition-msgs5
+[4.564s] -- Looking for ignition-math6 -- found version 6.9.2
+[4.574s] -- Checking for module 'tinyxml2'
+[4.610s] --   Found tinyxml2, version 6.2.0
+[4.692s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.699s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.701s] -- Searching for dependencies of ignition-common3
+[4.701s] -- Looking for dlfcn.h - found
+[4.703s] -- Looking for libdl - found
+[4.705s] -- Found DL: TRUE  
+[4.716s] -- Searching for <ignition-common3> component [graphics]
+[4.723s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.724s] -- Searching for dependencies of ignition-common3-graphics
+[4.725s] -- Looking for ignition-math6 -- found version 6.9.2
+[4.737s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.737s] -- Searching for dependencies of ignition-fuel_tools4
+[4.871s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[4.891s] -- Checking for module 'jsoncpp'
+[4.916s] --   Found jsoncpp, version 1.7.4
+[4.985s] -- Found JSONCPP: TRUE  
+[4.994s] -- Checking for module 'libzip'
+[5.022s] --   Found libzip, version 1.5.1
+[5.088s] -- Found ZIP: TRUE  
+[5.089s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.089s] -- Looking for ignition-math6 -- found version 6.9.2
+[5.090s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.094s] -- Gazebo version: 11.9
+[5.107s] -- Found my_box_bot_description: 0.0.0 (/home/user/ros2_ws/install/my_box_bot_description/share/my_box_bot_description/cmake)
+[5.113s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.241s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.244s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.245s] -- Added test 'lint_cmake' to check CMake code style
+[5.245s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.247s] -- Added test 'xmllint' to check XML markup files
+[5.253s] -- Configuring done
+[5.257s] -- Generating done
+[5.261s] -- Build files have been written to: /home/user/ros2_ws/build/my_box_bot_gazebo
+[5.277s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/simulations/ros2_sims_ws/install/uniclicle_robot_pkg:/home/simulations/ros2_sims_ws/install/turtle_tf_3d_ros2:/opt/ros/galactic:/opt/ros/galactic:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_box_bot_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_box_bot_gazebo
+[5.281s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/simulations/ros2_sims_ws/install/uniclicle_robot_pkg:/home/simulations/ros2_sims_ws/install/turtle_tf_3d_ros2:/opt/ros/galactic:/opt/ros/galactic:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_gazebo -- -j8 -l8
+[5.339s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/simulations/ros2_sims_ws/install/uniclicle_robot_pkg:/home/simulations/ros2_sims_ws/install/turtle_tf_3d_ros2:/opt/ros/galactic:/opt/ros/galactic:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_gazebo -- -j8 -l8
+[5.390s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_gazebo': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/simulations/ros2_sims_ws/install/uniclicle_robot_pkg:/home/simulations/ros2_sims_ws/install/turtle_tf_3d_ros2:/opt/ros/galactic:/opt/ros/galactic:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_gazebo
+[5.413s] -- Install configuration: ""
+[5.413s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch
+[5.414s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/start_world.launch.py
+[5.414s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//worlds
+[5.414s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//worlds/box_bot_empty.world
+[5.414s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models
+[5.414s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room
+[5.414s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.sdf
+[5.416s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes
+[5.417s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes/box_room.dae
+[5.418s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes/chambre.png
+[5.419s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.config
+[5.419s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_box_bot_gazebo
+[5.419s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_box_bot_gazebo
+[5.420s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.sh
+[5.420s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.dsv
+[5.420s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.sh
+[5.421s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.dsv
+[5.421s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.bash
+[5.421s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.sh
+[5.422s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.zsh
+[5.422s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.dsv
+[5.422s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv
+[5.423s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/packages/my_box_bot_gazebo
+[5.423s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig.cmake
+[5.428s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig-version.cmake
+[5.428s] -- Installing: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.xml
+[5.441s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/simulations/ros2_sims_ws/install/uniclicle_robot_pkg:/home/simulations/ros2_sims_ws/install/turtle_tf_3d_ros2:/opt/ros/galactic:/opt/ros/galactic:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_gazebo

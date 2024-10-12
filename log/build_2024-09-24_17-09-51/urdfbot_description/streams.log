@@ -1,0 +1,63 @@
+[0.031s] Invoking command in '/home/user/ros2_ws/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/urdfbot_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/urdfbot_description
+[0.578s] -- The C compiler identification is GNU 9.4.0
+[0.865s] -- The CXX compiler identification is GNU 9.4.0
+[0.880s] -- Check for working C compiler: /usr/bin/cc
+[1.014s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.021s] -- Detecting C compiler ABI info
+[1.168s] -- Detecting C compiler ABI info - done
+[1.187s] -- Detecting C compile features
+[1.188s] -- Detecting C compile features - done
+[1.195s] -- Check for working CXX compiler: /usr/bin/c++
+[1.380s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.381s] -- Detecting CXX compiler ABI info
+[1.575s] -- Detecting CXX compiler ABI info - done
+[1.601s] -- Detecting CXX compile features
+[1.602s] -- Detecting CXX compile features - done
+[1.612s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.692s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.693s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.920s] -- Found urdf: 2.5.2 (/opt/ros/galactic/share/urdf/cmake)
+[2.104s] -- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)
+[2.112s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.292s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.297s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.304s] -- Added test 'lint_cmake' to check CMake code style
+[2.304s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.305s] -- Added test 'xmllint' to check XML markup files
+[2.309s] -- Configuring done
+[2.313s] -- Generating done
+[2.314s] -- Build files have been written to: /home/user/ros2_ws/build/urdfbot_description
+[2.321s] Invoked command in '/home/user/ros2_ws/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/urdfbot_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/urdfbot_description
+[2.324s] Invoking command in '/home/user/ros2_ws/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/urdfbot_description -- -j8 -l8
+[2.419s] Invoked command in '/home/user/ros2_ws/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/urdfbot_description -- -j8 -l8
+[2.524s] Invoking command in '/home/user/ros2_ws/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/urdfbot_description
+[2.535s] -- Install configuration: ""
+[2.535s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/urdf
+[2.535s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/urdf/urdfbot_simple.urdf
+[2.535s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/rviz
+[2.535s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/rviz/urdf_vis.rviz
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/launch
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/launch/urdf_visualize.launch.py
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_limb.dae
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_head.dae
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_claw.dae
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_texture.png
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_foot.dae
+[2.536s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/meshes/urdfbot_body.dae
+[2.538s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/ament_index/resource_index/package_run_dependencies/urdfbot_description
+[2.538s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/ament_index/resource_index/parent_prefix_path/urdfbot_description
+[2.544s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.sh
+[2.545s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.dsv
+[2.545s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/environment/path.sh
+[2.545s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/environment/path.dsv
+[2.545s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/local_setup.bash
+[2.545s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/local_setup.sh
+[2.546s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/local_setup.zsh
+[2.546s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/local_setup.dsv
+[2.546s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/package.dsv
+[2.546s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/ament_index/resource_index/packages/urdfbot_description
+[2.546s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig.cmake
+[2.546s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig-version.cmake
+[2.546s] -- Installing: /home/user/ros2_ws/install/urdfbot_description/share/urdfbot_description/package.xml
+[2.550s] Invoked command in '/home/user/ros2_ws/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/spawn_robot_tools_pkg _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/urdfbot_description

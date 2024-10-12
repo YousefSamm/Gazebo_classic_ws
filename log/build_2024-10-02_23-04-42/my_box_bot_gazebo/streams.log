@@ -1,0 +1,41 @@
+[0.019s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/user/ros2_ws/install/urdfbot_description:/home/user/ros2_ws/install/my_box_bot_gazebo:/opt/ros/galactic:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_gazebo -- -j8 -l8
+[0.078s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/user/ros2_ws/install/urdfbot_description:/home/user/ros2_ws/install/my_box_bot_gazebo:/opt/ros/galactic:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_box_bot_gazebo -- -j8 -l8
+[0.121s] Invoking command in '/home/user/ros2_ws/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/user/ros2_ws/install/urdfbot_description:/home/user/ros2_ws/install/my_box_bot_gazebo:/opt/ros/galactic:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_gazebo
+[0.131s] -- Install configuration: ""
+[0.131s] -- Execute custom install script
+[0.132s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/control.launch.py
+[0.132s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/control_position_velocity.launch.py
+[0.132s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/main.launch.xml
+[0.133s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_description.launch.py
+[0.133s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2.launch.xml
+[0.133s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_control.launch.xml
+[0.134s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_control_complete.launch.xml
+[0.134s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_control_velocity.launch.xml
+[0.134s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_final.launch.xml
+[0.135s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_physical.launch.xml
+[0.135s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/spawn_robot_ros2_sensor.launch.xml
+[0.135s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/start_world.launch.py
+[0.135s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//launch/start_world_box_room.launch.py
+[0.136s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//worlds/box_bot_empty.world
+[0.136s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//worlds/room.world
+[0.137s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes/box_room.dae
+[0.137s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/meshes/chambre.png
+[0.137s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.config
+[0.137s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo//models/box_room/model.sdf
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/lib/my_box_bot_gazebo/move_laser.py
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_box_bot_gazebo
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_box_bot_gazebo
+[0.139s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.sh
+[0.139s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.dsv
+[0.139s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.sh
+[0.139s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.dsv
+[0.140s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.bash
+[0.140s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.sh
+[0.141s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.zsh
+[0.141s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.dsv
+[0.141s] -- Symlinking: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv
+[0.154s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/ament_index/resource_index/packages/my_box_bot_gazebo
+[0.154s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig.cmake
+[0.154s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig-version.cmake
+[0.155s] -- Up-to-date symlink: /home/user/ros2_ws/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.xml
+[0.159s] Invoked command in '/home/user/ros2_ws/build/my_box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_box_bot_description:/home/user/ros2_ws/install/urdfbot_description:/home/user/ros2_ws/install/my_box_bot_gazebo:/opt/ros/galactic:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_box_bot_gazebo
